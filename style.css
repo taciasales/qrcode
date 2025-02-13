@@ -9,14 +9,14 @@ html {
     font-family: "Outfit", serif;
     font-size: 62.5%;
     max-width: 1440px;
-} 
+    height:; 
 body {
     background: hsl(212, 45%, 89%);
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    
+    min-height: 100vh;
 
 }
 main{
@@ -24,10 +24,14 @@ main{
     flex-direction: column;
     justify-content: center;  
     background-color: white;
-    margin-top: 2%;
+    vertical-align: baseline;
     width: 290px;
     padding: 10px;
     border-radius: 15px;
+    position: absolute;
+    top: 10%;
+    box-shadow: 0 0 10px 0 hsl(0, 0%, 0%, 0.1);
+    color: hsl(218, 44%, 22%)
 }
 h1, p { 
     text-align: center;
@@ -38,6 +42,7 @@ p {
 }
 img {
     border-radius: 20px;
+    width: "290px"
 }
 .attribution { 
     font-size: 11px; text-align: center;
